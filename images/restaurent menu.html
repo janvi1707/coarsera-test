@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:3000/mod3.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>restaurent menu</title>
+    <link rel="stylesheet" href="./restaurent menu_files/bootstrap.min.css">
+    <script src="./restaurent menu_files/jquery.min.js.download"></script>
+    <script src="./restaurent menu_files/bootstrap.min.js.download"></script>
+    <link rel="stylesheet" href="./restaurent menu_files/styles.css">
+    <style>
+    body{
+	font-size: 18px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: oxygen;
+
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url('../images/pic.jpg')no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+	float: left;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: lora;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#951c49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px; 
+}
+.navbar-header button.navbar-toggle, .navbar-toggle .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+@media(min-width: 1200px){
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/picmed.jpg')no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+}
+@media(min-width: 768px)and(max-width: 991px){
+}
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collasable-nav a span{
+		font-size: 1em;
+	}
+}
+</style>
+</head>
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script><script async="" src="./restaurent menu_files/browser-sync-client.js.download"></script>
+
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="http://localhost:3000/index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="logo-img"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="http://localhost:3000/index.html"><h1>David Chu's China Bistro</h1></a>
+						<p>
+							<span>Kosher certified</span>
+						</p>
+					</div>
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="http://localhost:3000/menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">menu</a>
+						</li>
+						<li><a href="http://localhost:3000/mod3.html#">
+							<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">about</a>
+						</li>
+						<li><a href="http://localhost:3000/mod3.html#">
+							<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">acheive</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-602-5008">
+								<span>410-602-5008</span></a><div>we deliver</div>
+						</li>
+				</ul></div>
+				</div>
+
+		</nav>
+	</header>
+	<script src="./restaurent menu_files/jquery-3.5.1.slim.min.js.download" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="./restaurent menu_files/popper.min.js.download" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="./restaurent menu_files/bootstrap.min.js(1).download" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body></html>
